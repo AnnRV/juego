@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pares o Nones</title>
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="letras.css">
+    <link rel="stylesheet" href="pasopantallas.css">
+     <link rel="stylesheet" href="cats.css">
+   <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Vast+Shadow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Outline" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div class="container">
+        
+        <!--
+Vamos a hacer 5 pantallas,
+Pantalla1 presentamos el juego.
+Pantalla2 decimos al niño que elija pares o nones.
+Pantalla3 lanzamos el juego (JAVASCRIPT).
+Pantalla4 Resultados del juego e informamos al niño de si es el ganador o no. Y boton de volver a Jugar (ir a pantalla2) o abandonar juego (ir a pantalla5).
+Pantalla5 Despedida.
+-->
+        
+        
+        <!--Inicio de la pantalla 1-->
+        
+        <div id='pantalla1'class="pantalla">
+<!--        <h1 class="luz" id="blink" >-->
+        <h1 class="tituloh1">Pares o Nones</h1>
+            <h2>¡Ven a divertirte!</h2>
+            <button type="button" id='entrar'> ¡¡¡Vamos a jugar!!! </button>
+        </div>
+        
+        <!--Inicio de la pantalla 2   Elegimos pares o nones y un número. Y pasamos a la pantalla 4, tran un breve espacio de tiempo.-->
+        
+        <div id='pantalla2'class="pantalla">
+            
+          <form>
+              <div id='paresynones'>
+               <h2>Elige pares o nones</h2>
+              <input  id='pares' type='radio' value='pares' name='paresnones'>
+<label for='pares'> Pares</label>
+    <input id='impares' type='radio' value='impares' name='paresnones'><label for='impares'> Nones</label>
+              </div>
+       <!--   </form>
+          <form>-->
+              <div id='numeros'>
+               <h2>Elige un número del 1 al 10</h2>
+             <input id='rad1'type='radio' value='1' name='numeros'>
+<label for='rad1'> 1</label>
+     <input id='rad2'type='radio' value='2' name='numeros'>
+<label for='rad2'> 2</label>
+     <input id='rad3'type='radio' value='3' name='numeros'>
+<label for='rad3'> 3</label>
+     <input id='rad4'type='radio' value='4' name='numeros'>
+<label for='rad4'> 4</label>
+     <input id='rad5'type='radio' value='5' name='numeros'>
+<label for='rad5'> 5</label>
+     <input id='rad6'type='radio' value='6' name='numeros'>
+<label for='rad6'> 6</label>
+     <input id='rad7'type='radio' value='7' name='numeros'>
+<label for='rad7'> 7</label>
+     <input id='rad8'type='radio' value='8' name='numeros'>
+<label for='rad8'> 8</label>
+     <input id='rad9'type='radio' value='9' name='numeros'>
+<label for='rad9'> 9</label>
+     <input id='rad10'type='radio' value='10' name='numeros'>
+<label for='rad10'> 10</label>
+             </div>
+              <button onclick='jugar()' type="button" id='comjuego'>Juega contra la máquina</button>
+          </form>
+        </div>
+        
+        <!--Inicio de la pantalla 3 pensando, damos inicio al juego-->
+        
+        <div id='pantalla3'class="pantalla">
+            <p>Estamos pensando</p>
+        </div>
+        
+        <!--Inicio de la pantalla 4 vemos el resultado del juego y definimos al ganador. invitamos a jugar otra vez o nos despedimos (pantalla 5)-->
+        
+        <div id='pantalla4'class="pantalla">
+            <ul id='display'>
+            
+            
+            </ul>
+        <!--    <p>Has elegido <span id='selecnina'>pares</span></p>
+            <p>La maquina ha elegido <span id='selecmaquina'>nones</span></p>
+            <p>Elegiste el número <span id='selecnumeronino'>5</span></p>
+            <p>La maquina ha elegido el número <span id='selecnumeromaquina'>6</span></p>
+            <p> 6 + 5 = 11 y 11 es impar</p>
+            <p> El ganador es la máquina</p>-->
+            
+         <button id='again' type="button">QUIERO VOLVER A JUGAR</button>
+            <button id='adios' type="button">NO QUIERO JUGAR MÁS</button>   
+        </div>
+        
+        
+        <!--Inicio de la pantalla 5 nos despedimos-->
+        
+        <div id='pantalla5'class="pantalla">
+         <h2 class="luz" id='titulo'>Gracias y hasta pronto</h2>
+         <div id='gatos'>
+            <img class='cat' id="cat1" src="puchi.png">
+             <img class='cat' id='cat2' src="puchi.png">
+             <img class='cat' id='cat3' src="puchi.png">
+             <img class='cat' id='cat4' src='puchi.png'>
+         </div>
+        </div>
+        
+    </div>
+     <script src="tomardatos.js"></script>
+    <script src="juego.js"></script>
+
+    <script src="pasopantallas.js"></script>
+</body>
+</html>

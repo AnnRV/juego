@@ -1,0 +1,150 @@
+@font-face{
+    font-family:ToyBlock;
+    src: url(font/K26ToyBlocks123.ttf);
+}
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 960px;
+    margin:0 auto;
+}
+.pantalla{
+    position: relative;
+    width: 900px;
+    height: 600px;
+    background-color: palevioletred;
+    margin: 1em;
+    text-align: center;
+    font-size: 2em;
+}
+
+#pantalla1{
+    background-image: url('nina.png'), url('nina2.png'), url('balloons.png');
+    background-size: 25%,40%,30%;
+    background-position: bottom right 15%, bottom left, center bottom;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+#pantalla1 h2{
+    font-family: 'Bungee Outline', cursive;
+    color:blueviolet;
+    font-size: 1.4em; 
+    position: absolute;
+    top: 23%;
+    left:23%;
+}
+#pantalla1 button{
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    
+}
+#titulo, #boton{
+    position: relative;
+}
+ h2{
+    font-family: 'Bungee Shade', cursive;
+     font-size:1.5em; 
+}
+body, p{
+    font-family: 'Vast Shadow', cursive;
+    text-align: center;
+}
+h1 { 
+font-family: 'Bungee Shade', cursive;
+    font-size: 2em;
+    color:purple;
+    
+    
+}
+#numeros  label{
+    font-size: 1em;
+    font-family: ToyBlock;
+    color:blueviolet;
+    
+    
+}
+#paresynones label{
+    font-family: 'Bungee Inline', cursive;
+    color: blueviolet;
+    font-size: 1em;
+}
+
+button{
+    font-family: 'Bungee Inline', cursive;
+    background-color:plum;
+    padding:.2em;
+    border-radius: 1.5em;
+    border-color: darkorchid;
+}
+input[type="radio"] {
+  display: none;
+}
+label {
+  display: inline-block;
+  background-color:palevioletred;
+
+    
+  border-radius: 40%;
+  padding: 4px 11px;
+  font-size: 16px;
+  cursor: pointer;
+    border-style:dotted;
+    border-color: darkorchid;
+}
+input[type="radio"]:checked+label {
+  background-color:papayawhip;
+}
+ul{
+    list-style: none;
+   
+}
+#display{
+    padding: 20px 40px;
+	border: none;
+	position: relative;
+    top:10%;
+		border: 2px solid goldenrod;
+    background-blend-mode:color-dodge;
+    background-color:palevioletred;
+
+}
+#adios{
+    font-size: 23px;
+    position: absolute;
+    bottom:30%;
+    left: 10%;
+}
+#again{
+    font-size: 23px;
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+}
+#pantalla4{
+    background-image: url("platanos.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+#titulo{
+    z-index:100;
+}
+.luz.on{
+  color:palegoldenrod;
+  text-shadow:
+     1px  1px rgba(255, 255, 255, .1),
+    -1px -1px rgba(0, 0, 0, .88),
+     0px  0px 20px palegoldenrod;
+}
+.luz{
+  font-size:80px;
+  color: #000000;
+  text-shadow:
+     1px  1px rgba(255, 255, 255, .1),
+    -1px -1px rgba(0, 0, 0, .88);
+}

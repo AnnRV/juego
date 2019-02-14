@@ -1,0 +1,7 @@
+.pantalla{
+    display:none;
+    overflow: hidden;
+}
+#pantalla1{
+    display:inline-block;
+}

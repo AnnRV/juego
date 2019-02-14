@@ -1,0 +1,266 @@
+.cat{
+  height:200px;
+  position: absolute;
+}
+
+#cat1 {
+ left: 50%;
+  animation: cat-1-animation 12s infinite;
+}
+
+#cat2 {
+ left: 75%;
+  animation: cat-2-animation 12s infinite;
+}
+
+#cat3 {
+  left: 10%;
+  animation: cat-3-animation 12s infinite;
+  animation-delay: 1s;
+}
+
+#cat4 {
+ left: 30%;
+  animation: cat-4-animation 12s infinite;
+  animation-delay: 2s;
+}
+
+
+
+
+
+
+
+@keyframes cat-1-animation {
+  0% {
+    left: 50%;
+    bottom: -30%;
+  }
+  10% {
+    left: 50%;
+    bottom: 5%;
+    
+  }
+  12% {
+    left: 50%;
+    bottom: 5%;
+    
+  }
+
+  20% {
+    left: 50%;
+    bottom: 5%;
+    
+  }
+
+  38% {
+    left: 50%;
+    bottom: 87%;
+ 
+  }
+  50% {
+    left: 50%;
+    bottom: 110%;
+   
+  }
+  55% {
+    left: 50%;
+    bottom: 87%;
+  
+  }
+  72% {
+    left: 50%;
+    bottom: 50%;
+    
+  }
+ 
+  85% {
+    left: 50%;
+    bottom: 0%;
+    
+  }
+
+  100% {
+    left: 50%;
+    bottom: -60%;
+
+  }
+}
+
+
+@keyframes cat-2-animation {
+  0% {
+    left: 75%;
+    bottom: -30%;
+    
+  }
+    10% {
+    left: 75%;
+    bottom: 5%;
+    
+  }
+  12% {
+    left: 75%;
+    bottom: 5%;
+    
+  }
+
+  20% {
+    left: 75%;
+    bottom: 5%;
+    
+  }
+
+  38% {
+    left: 75%;
+    bottom: 87%;
+ 
+  }
+  50% {
+    left: 75%;
+    bottom: 110%;
+   
+  }
+  55% {
+    left: 75%;
+    bottom: 87%;
+  
+  }
+  72% {
+    left: 75%;
+    bottom: 50%;
+    
+  }
+ 
+  85% {
+    left: 75%;
+    bottom: 0%;
+    
+  }
+
+  100% {
+    left: 75%;
+    bottom: -60%;
+
+  }
+  
+}
+
+
+@keyframes cat-3-animation {
+  0% {
+    left: 10%;
+    bottom: -30%;
+    
+  }
+    10% {
+    left: 10%;
+    bottom: 5%;
+    
+  }
+  12% {
+    left: 10%;
+    bottom: 5%;
+    
+  }
+
+  20% {
+    left: 10%;
+    bottom: 5%;
+    
+  }
+
+  38% {
+    left: 10%;
+    bottom: 87%;
+ 
+  }
+  50% {
+    left: 10%;
+    bottom: 110%;
+   
+  }
+  55% {
+    left: 10%;
+    bottom: 87%;
+  
+  }
+  72% {
+    left: 10%;
+    bottom: 50%;
+    
+  }
+ 
+  85% {
+    left: 10%;
+    bottom: 0%;
+    
+  }
+
+  100% {
+    left: 10%;
+    bottom: -60%;
+
+  }
+  
+}
+
+
+
+@keyframes cat-4-animation {
+  0% {
+    left: 30%;
+    bottom: -30%;
+    
+  }
+    10% {
+    left: 30%;
+    bottom: 5%;
+    
+  }
+  12% {
+    left: 30%;
+    bottom: 5%;
+    
+  }
+
+  20% {
+    left: 30%;
+    bottom: 15%;
+    
+  }
+
+  38% {
+    left: 30%;
+    bottom: 87%;
+ 
+  }
+  50% {
+    left: 30%;
+    bottom: 110%;
+   
+  }
+  55% {
+    left: 30%;
+    bottom: 87%;
+  
+  }
+  72% {
+    left: 30%;
+    bottom: 50%;
+    
+  }
+ 
+  85% {
+    left: 30%;
+    bottom: 0%;
+    
+  }
+
+  100% {
+    left: 30%;
+    bottom: -60%;
+
+  }
+  
+}
